@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height:733.77px;
+}
+
+.box {
+    width: 1320px;
+    height: 637.77px;
+    margin: 48px 300px;
+}
+.head {
+    width:1296px;
+    height: 150px;
+    text-align: center;
+    margin: 0 12px 24px;
+}
+
+.head h1{
+    font-size: 55px;
+    margin-bottom: 16px;
+}
+
+.head p{
+    font-size: 20px;
+    font-weight: 300;
+    color:var(--color-azure-1575, #212529BF);
+
+}
+
+.box-2 {
+    width: 1320px;
+    height: 463.77px;
+}
+.list {
+    display:flex;
+    justify-content: space-between;
+    margin: 24px 12px 0;
+}
+.item {
+    width: 416px;
+    height:439.77px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.h3 {
+    text-align: center;
+    margin: 39px 40px 8px  ; 
+    font-size: 24px;
+    font-weight: 700;
+    color:#212529;
+}
+.price {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p{
+    color:#999999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.money {
+    font-size: 40px;
+    font-weight: 700;
+    height:64px;
+    color:#6366f1;
+}
+.line {
+    width:80%;
+    height:1px;
+    background-color:#999999;
+    margin:24.52px 24px;
+}
+.description {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 16px;
+}
+.tick {
+    display:flex;
+    flex-direction: column;
+    gap: 13.59px;
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    gap: 8.59px;
+    color:#212529;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.choice{
+    width:364px;
+    height:38px;
+    margin: 24px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color:#0d6efd;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0d6efd;
+    background-color: white;
+    cursor:pointer;
+}
+
+.item:hover{
+    border-radius: 8px;
+    border: 3px solid #6366f1;
+
+    transform:scale(1.03);
+
+    .choice{
+        background-color: #0d6efd;
+        color:#ffffff;
+    }
+}
