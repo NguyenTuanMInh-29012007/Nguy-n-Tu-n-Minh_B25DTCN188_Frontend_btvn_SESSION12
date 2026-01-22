@@ -96,6 +96,7 @@
     color:#0b62e2;
 }
 .list {
+    width: 1270px;    
     margin: 20px 0;
     display:flex;
     gap: 20px; 
@@ -195,4 +196,5 @@
 @media screen and (min-width: 1280px)  {
 
     
+
 }
