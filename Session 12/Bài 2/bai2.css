@@ -214,35 +214,37 @@ h2{
 }
 
 @media screen and (max-width: 480px) {
-    .container{
+    .big-container{
         display:flex;
-        flex: 0 0 calc(100% - 72px) /3;
+        width: 100%;    
     }
 }
 
 /* tablet */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .nav-link{
-        display:none;
-    }
-    .button button{
-        display:none;
-    }
-    .nav{
-        display:block;
-        cursor:pointer;
+    .big-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 /* desktop small */
 @media screen and (min-width:769px) and (max-width:1279px) {
-    .container{
+    .big-container{
         display:flex;
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
 }
 
 /* deskop big */
 @media screen and (min-width: 1280px)  {
-
-    
+    .big-container{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
 }
